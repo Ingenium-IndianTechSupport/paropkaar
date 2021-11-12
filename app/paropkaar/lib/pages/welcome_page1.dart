@@ -23,14 +23,7 @@ class WelcomePage extends StatelessWidget {
                 fontSize: 25,
               )),
           SizedBox(height: 20),
-          GradientText('paropkaar',
-              colors: [HexColor('#16A085'), HexColor('#F4D03F')],
-              style: TextStyle(
-                fontFamily: GoogleFonts.redRose().fontFamily,
-                fontSize: 60,
-                letterSpacing: 0,
-                height: 1,
-              )),
+          Image.asset("assets/images/mainlogo.png"),
           SizedBox(
             height: 30,
           ),

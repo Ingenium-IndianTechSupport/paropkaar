@@ -37,7 +37,7 @@ class ParopkaarApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       routes: {
-        "/": (context) => HomePage(),
+        "/": (context) => WelcomePage(),
         MyRoutes.welcomeRoute2: (context) => WelcomePage2(),
         MyRoutes.welcomeRoute3: (context) => WelcomePage3(),
         MyRoutes.welcomeRoute4: (context) => WelcomePage4(),
