@@ -27,7 +27,7 @@ class WelcomePage extends StatelessWidget {
               colors: [HexColor('#16A085'), HexColor('#F4D03F')],
               style: TextStyle(
                 fontFamily: GoogleFonts.redRose().fontFamily,
-                fontSize: 120,
+                fontSize: 60,
                 letterSpacing: 0,
                 height: 1,
               )),
