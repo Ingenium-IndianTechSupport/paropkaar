@@ -1,0 +1,22 @@
+version: '3.5'
+
+services:
+
+  db:
+    image: postgres:alpine
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: local_db
+      POSTGRES_USER: local_db
+      POSTGRES_DB: local_db
+    volumes:
+      - ./db/cockroach:/data/postgres
+
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
