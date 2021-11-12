@@ -14,7 +14,7 @@ import 'package:paropkaar/utils/routes.dart';
 import 'package:paropkaar/pages/welcome_page2.dart';
 import 'package:paropkaar/pages/welcome_page3.dart';
 import 'package:paropkaar/pages/welcome_page4.dart';
-// import 'package:paropkaar/pages/home_page.dart';
+import 'package:paropkaar/pages/home_page.dart';
 // import 'package:hexcolor/hexcolor.dart';
 // import 'package:http/http.dart' as http;
 // import 'package:paropkaar/pages/thank.dart';
@@ -37,12 +37,12 @@ class ParopkaarApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       routes: {
-        "/": (context) => WelcomePage(),
+        "/": (context) => HomePage(),
         MyRoutes.welcomeRoute2: (context) => WelcomePage2(),
         MyRoutes.welcomeRoute3: (context) => WelcomePage3(),
         MyRoutes.welcomeRoute4: (context) => WelcomePage4(),
         MyRoutes.loginRoute: (context) => LoginPage(),
-        // MyRoutes.homeRoute: (context) => HomePage(),
+        MyRoutes.homeRoute: (context) => HomePage(),
         // MyRoutes.scheduleRoute: (context) => SchedulePage(),
         // MyRoutes.imageRoute: (context) => ImageClassifier(),
         // MyRoutes.historyRoute: (context) => UserProfile(),

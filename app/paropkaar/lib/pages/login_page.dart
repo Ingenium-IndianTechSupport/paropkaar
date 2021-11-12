@@ -6,7 +6,7 @@ import 'package:paropkaar/pages/welcome_page1.dart';
 import 'package:paropkaar/utils/routes.dart';
 import 'package:sawo/sawo.dart';
 import 'package:paropkaar/models/user_data.dart';
-//import 'package:paropkaar/pages/home_page.dart';
+import 'package:paropkaar/pages/home_page.dart';
 import 'dart:math' as math;
 
 class LoginPage extends StatefulWidget {
@@ -52,7 +52,7 @@ class _LoginPageState extends State<LoginPage> {
       payload = "Hi, get out";
     }
     Navigator.of(context).push(MaterialPageRoute(
-        builder: (context) => WelcomePage(
+        builder: (context) => HomePage(
             //userData: userDataFromJson(payload),
             )));
   }
