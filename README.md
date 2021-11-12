@@ -9,3 +9,18 @@ Here comes, Paropkaar. Based on the observation that most people donate out of c
 You can also earn points by donating and redeem them to avail discounts, get gift cards and more! The aim of our app is to tackle numerous problems at once; Wastage - of food, clothes and books, Necessity - of these items for the underprivileged, Logistics - of the entire donating process.
 
 ---
+
+## Technologies used
+
+1. Flutter
+1. SAWO Labs Authentication
+1. TensorFlow Lite
+1. Google Maps API
+1. Docker
+1. TypeScript
+1. Node.JS
+1. Express.JS
+1. Cloudflare
+1. Figma
+
+---
