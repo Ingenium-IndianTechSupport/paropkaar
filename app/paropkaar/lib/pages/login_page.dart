@@ -5,7 +5,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:paropkaar/pages/welcome_page1.dart';
 import 'package:paropkaar/utils/routes.dart';
 import 'package:sawo/sawo.dart';
-//import 'package:paropkaar/models/user_data.dart';
+import 'package:paropkaar/models/user_data.dart';
 //import 'package:paropkaar/pages/home_page.dart';
 import 'dart:math' as math;
 
@@ -68,13 +68,13 @@ class _LoginPageState extends State<LoginPage> {
               key: _formKey,
               child: Column(
                 children: [
-                  Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 30),
-                    child: Image.asset(
-                      "assets/images/k.png",
-                      scale: 0.8,
-                    ),
-                  ),
+                  // Padding(
+                  //   padding: const EdgeInsets.symmetric(vertical: 30),
+                  //   child: Image.asset(
+                  //     "assets/images/k.png",
+                  //     scale: 0.8,
+                  //   ),
+                  // ),
                   SizedBox(
                     height: 50,
                   ),
