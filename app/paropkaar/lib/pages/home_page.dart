@@ -110,7 +110,7 @@ class _HomePageState extends State<HomePage> {
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                     colors: [
-                      Colors.lightGreen.shade800,
+                      Colors.deepPurple,
                       Colors.white,
                     ],
                     stops: [
@@ -274,7 +274,7 @@ class _HomePageState extends State<HomePage> {
                           Navigator.pushNamed(context, MyRoutes.scheduleRoute);
                         },
                         style: TextButton.styleFrom(
-                            backgroundColor: Color.fromRGBO(62, 92, 85, 1)),
+                            backgroundColor: Color.fromRGBO(75, 0, 130, 1)),
                         child: Text(
                           "Schedule Pickup",
                           style: TextStyle(

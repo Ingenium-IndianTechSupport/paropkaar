@@ -12,15 +12,15 @@ class MyDrawer extends StatelessWidget {
     int donations = 0;
     return Drawer(
       child: Container(
-        color: Colors.lightGreen.shade600,
+        color: Colors.purple.shade300,
         child: ListView(
           padding: EdgeInsets.zero,
           children: [
             DrawerHeader(
-              decoration: BoxDecoration(color: Colors.lightGreen.shade900),
+              decoration: BoxDecoration(color: Colors.deepPurple),
               padding: EdgeInsets.zero,
               child: UserAccountsDrawerHeader(
-                decoration: BoxDecoration(color: Colors.lightGreen.shade900),
+                decoration: BoxDecoration(color: Colors.deepPurple),
                 accountName: Text(
                   "Raghav Agrawal",
                   style: TextStyle(
