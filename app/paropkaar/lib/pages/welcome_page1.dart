@@ -39,7 +39,7 @@ class WelcomePage extends StatelessWidget {
               Navigator.pushNamed(context, MyRoutes.welcomeRoute2);
             },
             style: TextButton.styleFrom(
-                backgroundColor: Color.fromRGBO(62, 92, 85, 1)),
+                backgroundColor: Color.fromRGBO(75, 0, 130, 1)),
             child: Text(
               "Next",
               style:

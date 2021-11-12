@@ -12,17 +12,17 @@ class WelcomePage2 extends StatelessWidget {
     return Material(
       child: Column(
         children: [
-          // Padding(
-          //   padding: const EdgeInsets.symmetric(vertical: 32, horizontal: 32),
-          //   child: Row(
-          //     children: [
-          //       Image.asset(
-          //         "assets/images/k.png",
-          //         scale: 0.9,
-          //       ),
-          //     ],
-          //   ),
-          // ),
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 32, horizontal: 32),
+            child: Row(
+              children: [
+                Image.asset(
+                  "assets/images/p.png",
+                  scale: 0.9,
+                ),
+              ],
+            ),
+          ),
           SizedBox(
             height: 25,
           ),
@@ -58,7 +58,7 @@ class WelcomePage2 extends StatelessWidget {
               Navigator.pushNamed(context, MyRoutes.welcomeRoute3);
             },
             style: TextButton.styleFrom(
-                backgroundColor: Color.fromRGBO(62, 92, 85, 1)),
+                backgroundColor: Color.fromRGBO(75, 0, 130, 1)),
             child: Text(
               "Next",
               style:
