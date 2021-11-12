@@ -12,17 +12,17 @@ class WelcomePage4 extends StatelessWidget {
     return Material(
       child: Column(
         children: [
-          Padding(
-            padding: const EdgeInsets.symmetric(vertical: 32, horizontal: 32),
-            child: Row(
-              children: [
-                Image.asset(
-                  "assets/images/k.png",
-                  scale: 0.9,
-                ),
-              ],
-            ),
-          ),
+          // Padding(
+          //   padding: const EdgeInsets.symmetric(vertical: 32, horizontal: 32),
+          //   child: Row(
+          //     children: [
+          //       Image.asset(
+          //         "assets/images/k.png",
+          //         scale: 0.9,
+          //       ),
+          //     ],
+          //   ),
+          // ),
           SizedBox(
             height: 25,
           ),
