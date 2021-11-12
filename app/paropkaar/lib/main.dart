@@ -1,30 +1,31 @@
 import 'package:flutter/material.dart';
-import 'package:paropkaar/models/data.dart';
-import 'package:paropkaar/pages/cart.dart';
-import 'package:paropkaar/pages/image_classifier.dart';
-import 'package:paropkaar/pages/login_page.dart';
-import 'package:paropkaar/pages/redeem.dart';
-import 'package:paropkaar/pages/schedule.dart';
-import 'package:paropkaar/pages/set_time.dart';
-import 'package:paropkaar/pages/user_profile.dart';
 import 'package:paropkaar/pages/welcome_page1.dart';
+// import 'package:paropkaar/models/data.dart';
+// import 'package:paropkaar/pages/cart.dart';
+// import 'package:paropkaar/pages/image_classifier.dart';
+// import 'package:paropkaar/pages/login_page.dart';
+// import 'package:paropkaar/pages/redeem.dart';
+// import 'package:paropkaar/pages/schedule.dart';
+// import 'package:paropkaar/pages/set_time.dart';
+// import 'package:paropkaar/pages/user_profile.dart';
+// import 'package:paropkaar/pages/welcome_page1.dart';
 import 'package:paropkaar/utils/routes.dart';
-import 'package:google_fonts/google_fonts.dart';
+// import 'package:google_fonts/google_fonts.dart';
 import 'package:paropkaar/pages/welcome_page2.dart';
 import 'package:paropkaar/pages/welcome_page3.dart';
 import 'package:paropkaar/pages/welcome_page4.dart';
-import 'package:paropkaar/pages/home_page.dart';
-import 'package:hexcolor/hexcolor.dart';
-import 'package:http/http.dart' as http;
-import 'package:paropkaar/pages/thank.dart';
-import 'package:paropkaar/pages/last.dart';
+// import 'package:paropkaar/pages/home_page.dart';
+// import 'package:hexcolor/hexcolor.dart';
+// import 'package:http/http.dart' as http;
+// import 'package:paropkaar/pages/thank.dart';
+// import 'package:paropkaar/pages/last.dart';
 
 void main() {
-  runApp(paropkaarApp());
+  runApp(ParopkaarApp());
 }
 
-class paropkaarApp extends StatelessWidget {
-  const paropkaarApp({Key? key}) : super(key: key);
+class ParopkaarApp extends StatelessWidget {
+  const ParopkaarApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -32,7 +33,7 @@ class paropkaarApp extends StatelessWidget {
       themeMode: ThemeMode.light,
       theme: ThemeData(
         primarySwatch: Colors.green,
-        fontFamily: GoogleFonts.lato().fontFamily,
+        //fontFamily: GoogleFonts.lato().fontFamily,
       ),
       debugShowCheckedModeBanner: false,
       routes: {
@@ -40,16 +41,16 @@ class paropkaarApp extends StatelessWidget {
         MyRoutes.welcomeRoute2: (context) => WelcomePage2(),
         MyRoutes.welcomeRoute3: (context) => WelcomePage3(),
         MyRoutes.welcomeRoute4: (context) => WelcomePage4(),
-        MyRoutes.loginRoute: (context) => LoginPage(),
-        MyRoutes.homeRoute: (context) => HomePage(),
-        MyRoutes.scheduleRoute: (context) => SchedulePage(),
-        MyRoutes.imageRoute: (context) => ImageClassifier(),
-        MyRoutes.historyRoute: (context) => UserProfile(),
-        MyRoutes.cartRoute: (context) => CartScreen(),
-        MyRoutes.redeemRoute: (context) => RedeemPage(),
-        MyRoutes.timeRoute: (context) => set_time(),
-        MyRoutes.thankRoute: (context) => thank(),
-        MyRoutes.lastRoute: (context) => last(),
+        // MyRoutes.loginRoute: (context) => LoginPage(),
+        // MyRoutes.homeRoute: (context) => HomePage(),
+        // MyRoutes.scheduleRoute: (context) => SchedulePage(),
+        // MyRoutes.imageRoute: (context) => ImageClassifier(),
+        // MyRoutes.historyRoute: (context) => UserProfile(),
+        // MyRoutes.cartRoute: (context) => CartScreen(),
+        // MyRoutes.redeemRoute: (context) => RedeemPage(),
+        // MyRoutes.timeRoute: (context) => set_time(),
+        // MyRoutes.thankRoute: (context) => thank(),
+        // MyRoutes.lastRoute: (context) => last(),
       },
     );
   }
