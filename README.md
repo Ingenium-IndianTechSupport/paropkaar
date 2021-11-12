@@ -1,2 +1,2 @@
 # paropkaar
-The paropkaar service for the Ingenium hackathon
+A submission for Ingenium 2021
