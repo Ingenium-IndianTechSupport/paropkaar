@@ -37,7 +37,7 @@ Refer to deploy.md for instructions on how to deploy and run the backend and API
 
 <p align="center">
   <a href="www.google.com">
-    <img alt="paropkaar-flow" src="https://i.imgur.com/0dpE4R9.jpg" width="720">
+    <img alt="paropkaar-flow" src="https://lucid.app/publicSegments/view/e864ce14-0922-4020-8097-6236a4a48dcd/image.jpeg" width="720">
   </a>
 </p>
 
