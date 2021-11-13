@@ -16,11 +16,45 @@ You can also earn points by donating and redeem them to avail discounts, get gif
 1. SAWO Labs Authentication
 1. TensorFlow Lite
 1. Google Maps API
+1. nginx
+1. CockroachDB
 1. Docker
+1. Linode
+1. TypeORM
 1. TypeScript
 1. Node.JS
 1. Express.JS
 1. Cloudflare
+1. GoDaddy
 1. Figma
 
 ---
+
+## Flowchart
+
+<p align="center">
+  <a href="www.google.com">
+    <img alt="paropkaar-flow" src="" width="720">
+  </a>
+</p>
+
+## Prototype
+
+https://www.figma.com/proto/48HayXybu54atXtVYlGn8h/Paropkaar?node-id=0%3A1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A7&show-proto-sidebar=1
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+The Unlicense license
+
+### Team
+
+1. Sarthak Aggarwal - ML Integration, Google Maps API integration, Frontend
+1. Raghav Agrawal - Frontend UI/UX, Backend API integration
+1. Aaditya Rathore - Design (Figma) UI/UX, User research
+1. Ansh Bhalala - Backend and Data Analysis
