@@ -28,6 +28,9 @@ You can also earn points by donating and redeem them to avail discounts, get gif
 1. GoDaddy
 1. Figma
 
+
+Refer to deploy.md for instructions on how to deploy and run the backend and API.
+
 ---
 
 ## Flowchart
