@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:paropkaar/utils/routes.dart';
 
-class thank extends StatelessWidget {
-  const thank({Key? key}) : super(key: key);
+class last extends StatelessWidget {
+  const last({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Navigator.pushNamed(context, MyRoutes.lastRoute);
+        Navigator.pushNamed(context, MyRoutes.homeRoute);
       }, // handle your image tap here
       child: Image.asset(
-        'assets/two.png',
+        'assets/one.png',
         // fit: BoxFit.cover, // this is the solution for border
         // width: 100.0,
         // height: 100.0,

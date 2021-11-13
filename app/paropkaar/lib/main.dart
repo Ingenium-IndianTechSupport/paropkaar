@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:paropkaar/pages/last.dart';
 import 'package:paropkaar/pages/welcome_page1.dart';
 import 'package:paropkaar/models/data.dart';
 import 'package:paropkaar/pages/cart.dart';
@@ -49,6 +50,7 @@ class ParopkaarApp extends StatelessWidget {
         MyRoutes.redeemRoute: (context) => RedeemPage(),
         MyRoutes.timeRoute: (context) => set_time(),
         MyRoutes.thankRoute: (context) => thank(),
+        MyRoutes.lastRoute: (context) => last(),
       },
     );
   }
