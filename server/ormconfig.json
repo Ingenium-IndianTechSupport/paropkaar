@@ -1,0 +1,17 @@
+{
+  "type": "cockroachdb",
+  "host": "localhost",
+  "port": 26257,
+  "username": "paropkaar",
+  "database": "paropkaar",
+  "synchronize": true,
+  "logging": false,
+  "entities": ["src/models/**/*.model.ts"],
+  "migrations": ["src/migration/**/*.ts"],
+  "subscribers": ["src/subscriber/**/*.ts"],
+  "cli": {
+    "entitiesDir": "src/entity",
+    "migrationsDir": "src/migration",
+    "subscribersDir": "src/subscriber"
+  }
+}

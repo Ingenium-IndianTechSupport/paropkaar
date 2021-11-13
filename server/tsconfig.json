@@ -1,9 +1,13 @@
 {
-   "compilerOptions": {
-     "sourceMap": true,
-     "outDir": "dist",
-     "strict": true,
-     "lib": ["esnext"],
-     "esModuleInterop": true
-   }
- }
+  "compilerOptions": {
+    "lib": ["es5", "es6"],
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "sourceMap": true
+  }
+}

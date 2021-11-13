@@ -1,22 +1,17 @@
-version: '3.5'
+version: "3.5"
 
 services:
-
-  db:
-    image: postgres:alpine
-    restart: always
+  roach:
+    image: cockroachdb/cockroach:latest
+    networks:
+      - backend
     ports:
-      - 5432:5432
-    environment:
-      POSTGRES_PASSWORD: local_db
-      POSTGRES_USER: local_db
-      POSTGRES_DB: local_db
+      - "26257:26257"
+      - "8080:8080"
+    command: start-single-node --insecure
+
     volumes:
-      - ./db:/data/postgres
+      - ./db/cockroach:/cockroach/cockroach-data
 
-
-  adminer:
-    image: adminer
-    restart: always
-    ports:
-      - 8080:8080
+networks:
+  backend:

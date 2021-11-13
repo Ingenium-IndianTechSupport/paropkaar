@@ -1,5 +1,8 @@
-node_modules
-
-.env
-
-/prisma/migrations
+.idea/
+.vscode/
+node_modules/
+build/
+tmp/
+temp/
+dist/
+images/*
