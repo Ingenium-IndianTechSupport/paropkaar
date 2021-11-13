@@ -7,9 +7,9 @@ class thank extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {
-        Navigator.pushNamed(context, MyRoutes.lastRoute);
-      }, // handle your image tap here
+      // onTap: () {
+      //   Navigator.pushNamed(context, MyRoutes.lastRoute);
+      // }, // handle your image tap here
       child: Image.asset(
         'assets/two.png',
         // fit: BoxFit.cover, // this is the solution for border

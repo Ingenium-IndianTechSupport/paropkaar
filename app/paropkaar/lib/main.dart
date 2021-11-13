@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:paropkaar/pages/welcome_page1.dart';
 import 'package:paropkaar/models/data.dart';
-// import 'package:paropkaar/pages/cart.dart';
+import 'package:paropkaar/pages/cart.dart';
 import 'package:paropkaar/pages/image_classifier.dart';
 import 'package:paropkaar/pages/login_page.dart';
 import 'package:paropkaar/pages/redeem.dart';
@@ -17,8 +17,7 @@ import 'package:paropkaar/pages/welcome_page4.dart';
 import 'package:paropkaar/pages/home_page.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:http/http.dart' as http;
-// import 'package:paropkaar/pages/thank.dart';
-// import 'package:paropkaar/pages/last.dart';
+import 'package:paropkaar/pages/thank.dart';
 
 void main() {
   runApp(ParopkaarApp());
@@ -46,11 +45,10 @@ class ParopkaarApp extends StatelessWidget {
         MyRoutes.scheduleRoute: (context) => SchedulePage(),
         MyRoutes.imageRoute: (context) => ImageClassifier(),
         MyRoutes.historyRoute: (context) => UserProfile(),
-        // MyRoutes.cartRoute: (context) => CartScreen(),
+        MyRoutes.cartRoute: (context) => CartScreen(),
         MyRoutes.redeemRoute: (context) => RedeemPage(),
         MyRoutes.timeRoute: (context) => set_time(),
-        // MyRoutes.thankRoute: (context) => thank(),
-        // MyRoutes.lastRoute: (context) => last(),
+        MyRoutes.thankRoute: (context) => thank(),
       },
     );
   }

@@ -12,5 +12,4 @@ class MyRoutes {
   static String redeemRoute = "/redeem";
   static String timeRoute = "/time";
   static String thankRoute = "/thank";
-  static String lastRoute = "/last";
 }
